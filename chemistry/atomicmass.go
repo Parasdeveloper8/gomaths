@@ -6,6 +6,7 @@ import (
 	"io/ioutil"
 	"log"
 	"os"
+	"strings"
 )
 
 type Element struct {
@@ -41,11 +42,14 @@ func GetAtomicMass(name string) (float64, bool) {
 
 	// Search for the element by name or symbol
 	for _, element := range elements {
-		if (len(name) == 2 || len(name) < 2 && name == element.Symbol) || (len(name) > 2 && name == element.Name) {
+		name = strings.TrimSpace(name)
+		if len(name) <= 2 && name == element.Symbol {
+			fmt.Printf("Element: %v\n Mass: %v\nSymbol: %v\n", element.Name, element.Atomic_Mass, element.Symbol)
+			return element.Atomic_Mass, true
+		} else if len(name) > 2 && name == element.Name {
 			fmt.Printf("Element: %v\n Mass: %v\nSymbol: %v\n", element.Name, element.Atomic_Mass, element.Symbol)
 			return element.Atomic_Mass, true
 		}
-
 	}
 
 	// If element is not found
