@@ -20,7 +20,7 @@ func GetAtomicMass(name string) (float64, bool) {
 	// Open the elements file
 	file, err := os.Open("D:/gomaths/json/elements.json") // Path to elements.json
 	if err != nil {
-		fmt.Printf("Could not open file: %v\n", err)
+		fmt.Printf("Could not open file: %v\n", err) //Could not open file
 		return 0, false
 	}
 	defer file.Close()
@@ -28,14 +28,14 @@ func GetAtomicMass(name string) (float64, bool) {
 	// Read file contents
 	bytes, err := ioutil.ReadAll(file)
 	if err != nil {
-		fmt.Printf("Could not read file: %v\n", err)
+		fmt.Printf("Could not read file: %v\n", err) //Could not read file contents
 		return 0, false
 	}
 
 	// Parse JSON into slice of elements
 	var elements []Element
 	if err := json.Unmarshal(bytes, &elements); err != nil {
-		log.Fatalf("Failed to parse JSON: %v", err)
+		log.Fatalf("Failed to parse JSON: %v", err) //parse to json failed
 		return 0, false
 	}
 

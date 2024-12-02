@@ -1,0 +1,148 @@
+[
+  {
+    "name": "Quadratic Formula",
+    "formula": "x = (-b ± √(b² - 4ac)) / 2a",
+    "description": "Finds roots of a quadratic equation.",
+    "topic": "Algebra"
+  },
+  {
+    "name": "Difference of Squares",
+    "formula": "a² - b² = (a + b)(a - b)",
+    "description": "Factorization of the difference of two squares.",
+    "topic": "Algebra"
+  },
+  {
+    "name": "Sum of Cubes",
+    "formula": "a³ + b³ = (a + b)(a² - ab + b²)",
+    "description": "Factorization of the sum of two cubes.",
+    "topic": "Algebra"
+  },
+  {
+    "name": "Difference of Cubes",
+    "formula": "a³ - b³ = (a - b)(a² + ab + b²)",
+    "description": "Factorization of the difference of two cubes.",
+    "topic": "Algebra"
+  },
+  {
+    "name": "Slope of a Line",
+    "formula": "m = (y₂ - y₁) / (x₂ - x₁)",
+    "description": "Calculates the slope of a line passing through two points.",
+    "topic": "Algebra"
+  },
+  {
+    "name": "Point-Slope Form",
+    "formula": "y - y₁ = m(x - x₁)",
+    "description": "Equation of a line with slope m passing through a point.",
+    "topic": "Algebra"
+  },
+  {
+    "name": "Sum of an Arithmetic Series",
+    "formula": "Sₙ = n/2 * (a + l)",
+    "description": "Sum of the first n terms of an arithmetic series.",
+    "topic": "Algebra"
+  },
+  {
+    "name": "Sum of a Geometric Series",
+    "formula": "Sₙ = a(1 - rⁿ) / (1 - r)",
+    "description": "Sum of the first n terms of a geometric series.",
+    "topic": "Algebra"
+  },
+  {
+    "name": "Area of a Circle",
+    "formula": "A = πr²",
+    "description": "Calculates the area of a circle.",
+    "topic": "Geometry"
+  },
+  {
+    "name": "Circumference of a Circle",
+    "formula": "C = 2πr",
+    "description": "Calculates the circumference of a circle.",
+    "topic": "Geometry"
+  },
+  {
+    "name": "Pythagoras Theorem",
+    "formula": "c² = a² + b²",
+    "description": "In a right triangle, relates the hypotenuse and other sides.",
+    "topic": "Geometry"
+  },
+  {
+    "name": "Area of a Triangle",
+    "formula": "A = 1/2 * b * h",
+    "description": "Calculates the area of a triangle.",
+    "topic": "Geometry"
+  },
+  {
+    "name": "Area of a Rectangle",
+    "formula": "A = l * w",
+    "description": "Calculates the area of a rectangle.",
+    "topic": "Geometry"
+  },
+  {
+    "name": "Perimeter of a Rectangle",
+    "formula": "P = 2(l + w)",
+    "description": "Calculates the perimeter of a rectangle.",
+    "topic": "Geometry"
+  },
+  {
+    "name": "Area of a Trapezium",
+    "formula": "A = 1/2 * (a + b) * h",
+    "description": "Calculates the area of a trapezium.",
+    "topic": "Geometry"
+  },
+  {
+    "name": "Surface Area of a Sphere",
+    "formula": "A = 4πr²",
+    "description": "Calculates the surface area of a sphere.",
+    "topic": "Geometry"
+  },
+  {
+    "name": "Volume of a Sphere",
+    "formula": "V = 4/3 * πr³",
+    "description": "Calculates the volume of a sphere.",
+    "topic": "Geometry"
+  },
+  {
+    "name": "Volume of a Cylinder",
+    "formula": "V = πr²h",
+    "description": "Calculates the volume of a cylinder.",
+    "topic": "Geometry"
+  },
+  {
+    "name": "Sine Rule",
+    "formula": "a/sin(A) = b/sin(B) = c/sin(C)",
+    "description": "Relates sides and angles of a triangle.",
+    "topic": "Trigonometry"
+  },
+  {
+    "name": "Cosine Rule",
+    "formula": "c² = a² + b² - 2ab*cos(C)",
+    "description": "Relates the sides and angles of a triangle.",
+    "topic": "Trigonometry"
+  },
+  {
+    "name": "Basic Sine Identity",
+    "formula": "sin²(θ) + cos²(θ) = 1",
+    "description": "Fundamental identity in trigonometry.",
+    "topic": "Trigonometry"
+  },
+  {
+    "name": "Tangent Identity",
+    "formula": "tan(θ) = sin(θ) / cos(θ)",
+    "description": "Defines tangent in terms of sine and cosine.",
+    "topic": "Trigonometry"
+  },
+  {
+    "name": "Area of a Triangle (Trigonometric)",
+    "formula": "A = 1/2 * ab * sin(C)",
+    "description": "Calculates the area using two sides and the included angle.",
+    "topic": "Trigonometry"
+  },
+  {
+    "name": "Law of Tangents",
+    "formula": "(a - b)/(a + b) = tan[(A - B)/2]/tan[(A + B)/2]",
+    "description": "Relates tangents and sides in a triangle.",
+    "topic": "Trigonometry"
+  }
+]
+
+  
