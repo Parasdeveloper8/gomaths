@@ -11,5 +11,5 @@ func main() {
 	//mathematics.GetFormula("Sum of Cubes")
 	//mathematics.ABWholeSquareNegative(2, 2)
 	//mathematics.AplusBplusCwholesquare(2, 3, 4)
-	mathematics.AplusBwholecube(100.0, 2.0)
+	mathematics.A3pB3pC3subt3ABC(10, 20, 30)
 }
