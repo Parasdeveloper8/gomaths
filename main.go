@@ -1,8 +1,7 @@
 package main
 
 func main() {
-	//physics.ForceGravity(6*math.Pow(10, 24), 1, 6.4*math.Pow(10, 6))
-	//chemistry.GetAtomicMass("Sc")
+	//TESTS
 	//mathematics.EnglishToRoman("8")
 	//mathematics.GetFormula("Sum of Cubes")
 	//mathematics.ABWholeSquareNegative(2, 2)
